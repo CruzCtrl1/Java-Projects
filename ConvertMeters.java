@@ -1,5 +1,5 @@
 /*
-17. Write a program that asks the user to enter a distance in meters as a double. The program than presents the user with the following menu of selections:
+Write a program that asks the user to enter a distance in meters as a double. The program than presents the user with the following menu of selections:
 1    Convert to kilometers      
 2    Convert to inches     
 3    Convert to feet      
@@ -46,15 +46,6 @@ public class ConvertMeters{
         }   
     }
 
-    /*
-    public static void welcomeDialog(){
-    // This method is first ran to receive the user's input for meters
-        Scanner input = new Scanner(System.in);
-        System.out.println("Please enter a distance in meters");
-        double meters = input.nextDouble();
-
-    }
-*/
     public static int userChoice(){
         Scanner input = new Scanner(System.in);
         // Need to include this in every method or will not work
@@ -70,24 +61,6 @@ public class ConvertMeters{
         // referenced from a static context"
         return selection;
     }
-
-    /*
-    public static int userChoiceCont(){
-        Scanner input = new Scanner(System.in);
-        // Need to include this in every method or will not work
-        // Cannot be outside of method due to "non-static variable cannot be
-        // referenced from a static context"
-        System.out.println("Would you like to continue converting? Type:");
-        System.out.print("1 for kilometers, 2 for inches, ");
-        System.out.println("3 for feet, or 4 to quit the program");
-        int selection = input.nextInt();
-        // Need to make sure to declare variables WITHIN the method.
-        // If initialize variables outside of method, will produce error
-        // Also because "non-static variable cannot be
-        // referenced from a static context"
-        return selection;
-    }
-    */
 
     public static void showKilometers(double meters){
     // This method converts the input from meters to kilometers
