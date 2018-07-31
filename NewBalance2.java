@@ -1,9 +1,5 @@
  /*
- Write a program to determine if the new balance exceeds the credit limit. 
- Input the beginning balance, new charges, credits and credit limit. Display a message if the new 
- balance exceed the credit limit. Display the new balance by adding the beginning balance to the difference between the 
- new charges and credits. If the new balance is zero then display: "No Payment Due". Produce three runs 
- where the new balance exceeds, equals and is less than the credit limit.
+The NewBalance program, but without the JOptionPane
  */
 
  // Purpose: To see if the new balance exceeds the credit limit
