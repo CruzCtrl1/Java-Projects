@@ -1,0 +1,28 @@
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
+int Score = 00;
+int a = 1;
+
+void setup() {
+  pinMode(6, INPUT); //pin for button
+
+  //set up LCD
+  lcd.begin(16, 2);
+  lcd.clear();
+
+  //displays "score:"
+  lcd.print("Score: ");
+}
+
+void loop() {
+  //if button is pushed, add 1 point
+  if(digitalRead(6) == LOW) //I HAVE NO CLUE WHAT LOW MEANS
+  {
+    delay(500);
+    Score = a + Score; //increment score by 1
+  }
+
+  lcd.setCursor(0, 1);
+  lcd.print(Score); //prints score
+}
