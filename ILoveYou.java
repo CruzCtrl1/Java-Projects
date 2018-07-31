@@ -10,7 +10,7 @@ class ILoveYou{
             JOptionPane.showMessageDialog(null, "I love you " + name + "! You are so beautiful.");
         }
         else{
-            JOptionPane.showMessageDialog(null, "What's up " + name + "! Go find Wendy for me.");
+            JOptionPane.showMessageDialog(null, "What's up " + name + "! Go find bae for me.");
         }
         System.exit(0);
     }
