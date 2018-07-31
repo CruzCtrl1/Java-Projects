@@ -1,3 +1,5 @@
+// This program plays with the JOptionPane tool in Java
+
 import javax.swing.JOptionPane;
 //This statement tells javac where to find JOptionPane class
 
