@@ -18,7 +18,7 @@ public class Test3Code{
         char output;
             if (aveGrade > 90 && aveGrade < 100)
             {
-            return output = '4';
+                return output = '4';
             }
             if (aveGrade > 80 && aveGrade < 89 )
             {
