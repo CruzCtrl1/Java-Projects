@@ -1,3 +1,5 @@
+// Adding items into an ArrayList
+
 import java.util.ArrayList;
 
 public class TemperaturesForEach {
