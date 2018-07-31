@@ -1,3 +1,5 @@
+// This demonstrates using combined assignment operators.
+
 public class CombinedAssignmentOperators{
     public static void main(String[] args){
         int input = 10;
