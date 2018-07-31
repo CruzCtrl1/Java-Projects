@@ -1,7 +1,5 @@
-// This is the version that I am turning in.
-
 /*
-17. Write a program that asks the user to enter a distance in meters as a double. The program than presents the user with the following menu of selections:
+Write a program that asks the user to enter a distance in meters as a double. The program than presents the user with the following menu of selections:
 1    Convert to kilometers      
 2    Convert to inches     
 3    Convert to feet      
@@ -15,7 +13,7 @@ showInches that uses the formula:                    
 showFeet that uses the formula:                          
     feet = meters * 3.281
 */
-import java.util.Scanner;
+iimport java.util.Scanner;
 
 public class ConvertMeters2{
 
