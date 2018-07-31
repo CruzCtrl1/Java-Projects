@@ -10,13 +10,6 @@ class Palindrome2{
         userInput = input.nextLine();
         int start = 0;
 
-        /*
-        String a_letter = Character.toString(input.charAt(start));
-        String next_letter = Character.toString(input.charAt(start+1));
-        System.out.println(a_letter);
-        System.out.println(next_letter);
-        */
-        
         String inputCompact = userInput.replaceAll("\\s+", "");
         // Matches all the whitespace
         int size = inputCompact.length();
