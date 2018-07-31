@@ -1,7 +1,6 @@
 /*
 E1. Write a program to produce the factorial of the number. The factorial of a number n is equal to the product of all numbers up to the number n. (i.e. the factorial of 4 = (1)*(2)*(3)*(4) = 24. 
-The program should input the number n and output the factorial of that number. Note: these numbers can be very large. Experiment with trial and error to find the largest integer 
-possible. Post this value in the discussion forum.
+The program should input the number n and output the factorial of that number.
 */
 import java.util.Scanner;
 
@@ -18,9 +17,7 @@ class Factorial{
             if(i<=n){
                 factorial = i * factorial;
             }
-            //System.out.println("The factorial of " + n + " is " + factorial);
         }
         System.out.println("The factorial of " + n + " is " + factorial);
     }
 }
-//Largest positive integer value I got was for 19. At 20, I got a negative value.
