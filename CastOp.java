@@ -1,8 +1,7 @@
+//This demonstrates casting operators in Java
+
 class CastOp{
     public static void main(String[] args){
-        //originally had short a;
-        // This doesn't compile because b+c = integer. therefore
-        // changed a to an int. can also do a conversion.
         int a;
         short b = 7;
         short c = 3;
